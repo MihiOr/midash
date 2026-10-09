@@ -1,0 +1,106 @@
+{
+  "comfort": {
+    "values": {
+      "speedKmh": 0,
+      "longitudinalG": 0,
+      "lateralG": 0,
+      "mode": "COMFORT",
+      "gear": "N",
+      "parking": true,
+      "speedLimit": 50,
+      "leftDoor": true,
+      "rightDoor": true,
+      "leftTurn": false,
+      "rightTurn": false,
+      "hazards": true,
+      "lowBeam": true,
+      "highBeam": false,
+      "throttle": 0,
+      "brake": 0,
+      "steering": 0,
+      "launch": "OFF",
+      "outsideC": 24,
+      "clock": "14:32",
+      "powerKw": 0,
+      "wheels": [
+        {
+          "battery": 32,
+          "temperature": 42
+        },
+        {
+          "battery": 24,
+          "temperature": 43
+        },
+        {
+          "battery": 5,
+          "temperature": 44
+        },
+        {
+          "battery": 55,
+          "temperature": 42
+        }
+      ],
+      "recoveredKwh": 2.4,
+      "recoveredKm": 14.3,
+      "tripKm": 48.6,
+      "tripKwh": 8.2,
+      "averageKwh": 16.8,
+      "rangeKm": 110,
+      "remainingKwh": 18.56
+    },
+    "trackId": "seventh-heaven.mp3",
+    "positionMs": 65000
+  },
+  "sport": {
+    "values": {
+      "speedKmh": 86,
+      "longitudinalG": 0.55,
+      "lateralG": 0.42,
+      "mode": "SPORT",
+      "gear": "D",
+      "parking": false,
+      "speedLimit": 80,
+      "leftDoor": false,
+      "rightDoor": false,
+      "leftTurn": false,
+      "rightTurn": true,
+      "hazards": false,
+      "lowBeam": true,
+      "highBeam": true,
+      "throttle": 0.78,
+      "brake": 0,
+      "steering": 0.16,
+      "launch": "OFF",
+      "outsideC": 18,
+      "clock": "21:36",
+      "powerKw": 148,
+      "wheels": [
+        {
+          "battery": 84,
+          "temperature": 62
+        },
+        {
+          "battery": 82,
+          "temperature": 64
+        },
+        {
+          "battery": 83,
+          "temperature": 61
+        },
+        {
+          "battery": 81,
+          "temperature": 63
+        }
+      ],
+      "recoveredKwh": 2.4,
+      "recoveredKm": 14.3,
+      "tripKm": 48.6,
+      "tripKwh": 10.4,
+      "averageKwh": 21.4,
+      "rangeKm": 247,
+      "remainingKwh": 52.8
+    },
+    "trackId": "misery.mp3",
+    "positionMs": 42000
+  }
+}

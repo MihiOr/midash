@@ -1,0 +1,46 @@
+# Local tooling and IDE state
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+.DS_Store
+Thumbs.db
+
+# Generated Android/native builds
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+/app.zip
+
+# Python environments and runtime data
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+bridge/.runtime/
+*.log
+
+# Local keys and environment files
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+keystore.properties
+.signing/
+
+# Keep reproducible QA tools; omit recordings, historical implementations and backups
+/qa/*
+!/qa/README.md
+!/qa/assets-manifest.json
+!/qa/generate_cues.py
+!/qa/verify_package.py
+
+# Local music recordings (kept on disk, never committed)
+*.mp3

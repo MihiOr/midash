@@ -1,0 +1,19 @@
+* text=auto
+*.kt text eol=lf
+*.kts text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+gradlew text eol=lf
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.wav binary
+*.ttf binary
+*.jar binary
+app/src/main/assets/ROBOTO-LICENSE.txt -whitespace
